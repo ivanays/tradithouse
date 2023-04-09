@@ -1,0 +1,25 @@
+// Шаблоны
+
+%text-menu-main {
+  @include text-light($ff-LSb, $fw-700, $fz-17, $c-3);
+}
+
+%text-link {
+  @include text-light($ff-BAb, $fw-700, $fz-17, $c-3);
+}
+
+%text-h1 {
+  @include text-light($ff-BAb, $fw-700, $fz-64, $c-3);
+}
+
+%text-h2 {
+  @include text-light($ff-BAb, $fw-700, $fz-40, $c-1);
+}
+
+%text-text {
+  @include text-light($ff-LSr, $fw-400, $fz-15, $c-1);
+}
+
+%text-h3 {
+  @include text-light($ff-BAb, $fw-700, $fz-27, $c-3);
+}
